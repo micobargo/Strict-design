@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+nav {
+	background-color: #F6F9F9;
+	padding: 25px 100px;
+}
+
+.cta {
+	background-image: url(../img/bg1.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #FFFFFF;
+	height: 800px;
+}
+
+.cta h1 {
+	text-transform: uppercase;
+	font-size: 120px;
+	padding-top: 225px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.cta hr {
+	border-color: #15a4fa;
+	margin-left: 25%;
+	width: 50%;
+}
+
+.cta p {
+	font-size: 20px;
+	padding: 30px;
+}
+
+.cta button {
+	background-color: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+	border-top: 1px solid #15a4fa;
+	border-left: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+
+.cta a i {
+	position: relative;
+	padding: 100px;
+	color: #FFFFFF;
+}
+
+.info {
+	background-color: #F6F9F9;
+	text-align: center;
+	height: 340px;
+}
+
+.info h2 {
+	font: #2D3950;
+	font-size: 40px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-weight: 400;
+}
+
+.info p{
+	color: #999999;
+	line-height: 32px;
+	font-weight: 400;
+	margin: 0 auto;
+	width: 74%
+}
+
+.features {
+	padding-left: 13%;
+}
+
+.features .box {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	font-weight: 400;
+	padding: 10px;
+	margin: 5% 1%;
+}
+
+.features .iconBox {
+	background: linear-gradient(to right,  #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.iconBox i {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+	color: #fff;
+	font-size: 40px;
+}
+
+.fa-mobile {
+	font-size: 55px;
+}	
+
+.fa-paper-plane-o {
+	padding-top: 30px;
+}
+
+.fa-bullhorn {
+	font-size: 50px;
+}
+
+.box h4 {
+	color:  #2d3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+
+.box p {
+	color:  #999999;
+	font-size: 15px; 
+	font-weight: 400;
+	line-height: 22px; 
+}
+
+.work {
+	background-color: #F6F9F9;
+	text-align: center;
+	font-weight: 400;
+	padding: 50px 0;
+}
+
+.work h2 {
+	font: #2D3950;
+	font-size: 40px;
+	margin: 0;
+}
+
+.work p {
+	color: #909090;
+	line-height: 23px;
+	font-size: 15px;
+}
+
+.work .box {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	font-weight: 400;
+	margin: 2% 1% 0%;
+}
+
+.work img {
+	width: 100%;
+	height: 100%;
+}
+
+.contact {
+	background-image: url(../img/bg2.png);
+	text-align: center;
+	height: 500px;
+	padding: 100px;
+	background-position: 50%;
+}
+
+.contact h2 {
+	color: #FFFFFF;
+	font-size: 40px;
+	margin: 7% 0 0;
+	font-weight: 400;
+}
+
+.contact p {
+	color: #999999;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 23px;
+}
+
+.contact input {
+	display: block;
+	margin: 1% auto;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 30%;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #F6F9F9;
+}
+
+.contact span input {
+	display: inline;
+	width: 5%;
+	margin-top: 2%;
+}
+
+.contact textarea {
+	display: block;
+	margin: 0 auto;
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+	width: 30%;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #F6F9F9;
+}
+
+.contact div {
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+}
+
+/*Checkbox isn't aligning with the text "Subscribe..."*/
+
+
+.contact span {
+	position: relative;
+}
+
+.contact button {
+	color: #FFFFFF;
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	padding: 10px 25px;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+}
+
+footer {
+	background-color: #F6F9F9;
+	padding: 10px;
+	height: 50px;
+}
+
+footer p {
+	display: inline-block;
+	margin-left: 15%;
+	padding-top: 15px;
+}
+
+.socialMedia {
+	display: inline-block;
+	float: right;
+	margin-right: 15%;
+	padding-top: 15px;
+}
+
+.socialMedia a {
+	border-radius: 2px;
+	background-color:  #15a4fa;
+	padding: 7px;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+}
